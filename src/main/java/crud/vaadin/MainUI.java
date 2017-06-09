@@ -116,8 +116,8 @@ public class MainUI extends UI {
     }
 
     protected void view(User Entry) { // protected void edit(final User Entry) {
-       // userForm.setEntity(Entry);
          userForm.setEntity(Entry);
+         userForm.setEnabled(false);
          userForm.openInModalPopup();
 
     }
